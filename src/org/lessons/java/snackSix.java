@@ -19,8 +19,10 @@ public class snackSix {
 		
 		for (int i = 0; i < numberAsArray.length; i++) {
 			char digit = numberAsArray[i];
-			//convert digit into a integer
-	        int intValue = digit - 48; 
+			//convert digit into a integer using -'0' (I discovered on Stack overflow that in ASCII the '0' has a value of 48,
+			//subtracting it to a character you then get that character in the form of an integer)
+	        int intValue = digit - '0'; 
+	        //raise the number to power (to have a zero at the end) and add up the new type
 	        numberAsInt = numberAsInt * 10 + intValue; 
 	        
 
