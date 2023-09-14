@@ -1,5 +1,9 @@
 package org.lessons.java;
 
-public class snackOne {
+import java.util.Scanner;
 
+public class snackOne {
+	public static void main(String[] args) {
+		
+	}
 }
